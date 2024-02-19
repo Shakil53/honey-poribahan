@@ -128,8 +128,10 @@ button.addEventListener('click', function () {
         totalFairSpan.textContent = grandTotalValue;
         console.log(grandTotalValue);
     }
-    document.getElementById("reloadButton").addEventListener("click", function() {
-        window.location.reload();
-    });
+    
 });
 
+function reloadWindow() {
+    console.log('object');
+    window.location.reload();
+}
